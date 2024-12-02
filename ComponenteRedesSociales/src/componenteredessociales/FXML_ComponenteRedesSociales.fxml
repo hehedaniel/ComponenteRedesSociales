@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="228.0" prefWidth="634.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18">
+   <children>
+      <HBox alignment="CENTER" layoutX="16.0" layoutY="13.0" prefHeight="203.0" prefWidth="602.0">
+         <children>
+            <ImageView id="imgview_instagram" fx:id="imgview_instagram" fitHeight="200.0" fitWidth="200.0">
+               <image>
+                  <Image url="@assets/Instagram.png" />
+               </image>
+            </ImageView>
+            <ImageView id="imgview_twitter" fx:id="imgview_twitter" fitHeight="200.0" fitWidth="200.0">
+               <image>
+                  <Image url="@assets/twitter.png" />
+               </image>
+            </ImageView>
+            <ImageView id="imgview_facebook" fx:id="imgview_facebook" fitHeight="200.0" fitWidth="200.0">
+               <image>
+                  <Image url="@assets/facebook.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

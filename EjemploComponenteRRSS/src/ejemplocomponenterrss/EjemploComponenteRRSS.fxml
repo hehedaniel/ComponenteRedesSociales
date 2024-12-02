@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import componenteredessociales.FXML_ComponenteRedesSocialesPersonalizado?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="422.0" prefWidth="783.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ejemplocomponenterrss.EjemploComponenteRRSSController">
+   <children>
+      <Label alignment="CENTER" layoutY="3.0" prefHeight="195.0" prefWidth="783.0" text="Nuestras Redes Sociales" textAlignment="CENTER" textFill="#ad38cf" underline="true">
+         <font>
+            <Font name="FreeSans Bold Oblique" size="63.0" />
+         </font>
+      </Label>
+      <FXML_ComponenteRedesSocialesPersonalizado id="componenteRedesSocialesPersonalizado" fx:id="componenteRedesSocialesPersonalizado" layoutX="90.0" layoutY="192.0" />
+   </children>
+</AnchorPane>
